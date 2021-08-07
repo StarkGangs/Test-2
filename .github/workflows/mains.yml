@@ -16,8 +16,6 @@ jobs:
           echo "Pls Wait" 
           echo "[LOG] Cloning"
           git clone https://github.com/StarkGangs/Test-2.git temp
-          echo "[LOG] Copying all cpp files to temp"
-          cp *.cpp temp
           cd temp
           rm -rf temp/.github/
           echo "[LOG] Setup global config"
