@@ -22,7 +22,7 @@ jobs:
           rm -rf temp/.github/
           echo "[LOG] Setup global config"
           echo "[LOG] Git set-url remote repository"
-          git remote set-url origin https://github.com/Starkgangs/Test-1
+          git remote set-url origin https://github.com/Starkgangs/Test1
           echo "[LOG] Git add ."
           git add .
           echo "[Log] Git Commit"
