@@ -1,0 +1,12 @@
+# .github/workflows/git-sync.yml
+
+on: push
+jobs:
+  git-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git-sync
+        uses: wei/git-sync@v3
+        with:
+          destination_repo: "starkgangs/test1"
+          destination_branch: "main"
