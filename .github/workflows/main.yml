@@ -8,5 +8,7 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
+          source_repo: "starkgangs/test-2"
+          source_branch: "main"
           destination_repo: "starkgangs/test1"
           destination_branch: "main"
