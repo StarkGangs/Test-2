@@ -13,6 +13,8 @@ jobs:
     - name: Push Updates if its Stable Release
       if : "contains(github.event.head_commit.message, 'Version')"
       run : |
+          git config --global user.email "starkgangz@gmail.com"
+          git config --global user.name "STarkGanG"
           echo "Pls Wait" 
           echo "[LOG] Cloning"
           git clone https://github.com/StarkGangs/Test-2.git temp
