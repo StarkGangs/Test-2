@@ -21,8 +21,6 @@ jobs:
           cd temp
           rm -rf temp/.github/
           echo "[LOG] Setup global config"
-          git config --global user.email "${{ secrets.USER_EMAIL }}"
-          git config --global user.name "${{ secrets.USER_NAME }}"
           echo "[LOG] Git set-url remote repository"
           git remote set-url origin https://github.com/Starkgangs/Test-1
           echo "[LOG] Git add ."
